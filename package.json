@@ -1,0 +1,33 @@
+{
+  "name": "unixtimestamp",
+  "version": "1.0.0",
+  "description": "A project that returns both the natural date and unix timestamp when a string of either the natural date or unix timestamp is entered into the url",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelChapman305/unixtimestamp.git"
+  },
+  "keywords": [
+    "unix",
+    "timestamp",
+    "date"
+  ],
+  "author": "Michael Chapman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichaelChapman305/unixtimestamp/issues"
+  },
+  "homepage": "https://github.com/MichaelChapman305/unixtimestamp#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongodb": "^3.0.0-rc0",
+    "pug": "^2.0.0-rc.4"
+  },
+  "devDependencies": {
+    "mongo-hacker": "0.0.15",
+    "nodemon": "^1.12.5"
+  }
+}
