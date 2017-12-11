@@ -4,6 +4,7 @@
   "description": "A project that returns both the natural date and unix timestamp when a string of either the natural date or unix timestamp is entered into the url",
   "main": "main.js",
   "scripts": {
+    "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
